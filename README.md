@@ -1,11 +1,11 @@
-# Turtle Spiral Generator (ros.py)
+# Interactive Turtle Spiral Generator (ros.py)
 
-A beautiful interactive Python script that utilizes the `turtle` graphics library to generate a colorful, geometric spiral design on a dark background.
+A beautiful interactive Python script that utilizes the `turtle` graphics library to generate colorful, geometric spiral designs on a dark background.
 
 ## Features
-- **Dynamic Color Palette**: Uses neon shades of pink (`pink`, `hotpink`, `deeppink`, `palevioletred`).
-- **Geometric Pattern**: Automatically scales circles to create an intricate spiral pattern.
-- **Customizable**: Easy-to-read code structure that allows changing sizes, angles, and speed.
+- **Multiple Color Themes**: Choose between several vibrant presets (Neon Pink, Ocean Blue, Forest Green, and Rainbow).
+- **Interactive Controls**: Instantly switch themes and redraw on the fly.
+- **Optimized Rendering**: Uses screen tracing to render the complex geometry instantly.
 
 ## Prerequisites
 To run this project, you need:
@@ -20,4 +20,5 @@ To run this project, you need:
    ```
 
 ## Controls
-- The drawing window will close once you click anywhere on the canvas or close the window manually.
+- **`Spacebar` or `Mouse Click`**: Cycle to the next color theme and redraw.
+- **`Q`**: Quit and close the window.
