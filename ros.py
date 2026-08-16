@@ -1,5 +1,6 @@
 import turtle
 t = turtle.Turtle()
+t.screen.title("Turtle Spiral Generator")
 t.screen.bgcolor("black")
 t.speed(0)
 t.pensize(1)
